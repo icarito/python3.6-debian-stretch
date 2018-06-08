@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-VERSION := 3.6.5-1
+VERSION := 3.6.5-8
 WORKDIR := python3.6-$(shell cut -d- -f1 <<< '$(VERSION)')
 # Sed command to remove "python3-distutils" dependency
 SED_TRIM := 'N; s/\s*python3-distutils,//; P; D'
